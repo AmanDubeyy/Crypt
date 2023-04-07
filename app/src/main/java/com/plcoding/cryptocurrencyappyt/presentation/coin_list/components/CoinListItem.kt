@@ -8,15 +8,14 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.google.android.material.datepicker.MaterialPickerOnPositiveButtonClickListener
 import com.plcoding.cryptocurrencyappyt.domain.model.Coin
 
 @Composable
@@ -46,7 +45,20 @@ fun CoinListItem(
             style = MaterialTheme.typography.body2,
             modifier = Modifier.align(CenterVertically)
         )
-        
     }
-    
+}
+
+@Preview(showBackground = true)
+@Composable
+fun ListItemPreview() {
+    CoinListItem(
+        coin = Coin(
+            id = "btc-bitcoin",
+            name = "Bitcoin",
+            symbol = "BTC",
+            rank = 1,
+            is_new = false,
+            is_active = true
+        ),
+        onClickItem = {})
 }
