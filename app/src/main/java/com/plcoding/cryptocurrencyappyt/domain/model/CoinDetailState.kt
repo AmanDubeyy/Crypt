@@ -1,6 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.presentation.coin_detail
-
-import com.plcoding.cryptocurrencyappyt.domain.model.CoinDetail
+package com.plcoding.cryptocurrencyappyt.domain.model
 
 data class CoinDetailState(
     val isLoading: Boolean = false,

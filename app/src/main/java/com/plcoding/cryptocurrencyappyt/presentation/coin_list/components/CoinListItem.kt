@@ -23,7 +23,6 @@ fun CoinListItem(
     coin : Coin,
     onClickItem : (Coin) -> Unit
 ) {
-    
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -60,5 +59,6 @@ fun ListItemPreview() {
             is_new = false,
             is_active = true
         ),
-        onClickItem = {})
+        onClickItem = {}
+    )
 }

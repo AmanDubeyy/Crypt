@@ -29,7 +29,7 @@ fun CoinDetailScreen(
 ) {
     val state = coinDetailViewModel.state.value
 
-    Box(modifier = Modifier.fillMaxWidth()) {
+    Box(modifier = Modifier.fillMaxWidth().padding(10.dp)) {
         state.coin?.let {coin ->
             LazyColumn(modifier = Modifier.fillMaxSize()) {
                 item {
