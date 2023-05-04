@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CUSTOMIZED FRAMEWORK FOR BACKEND USING NODE JS</h1>
+
+<div>
+    <h2>Abstract</h2>
+    <p>
+        Backend frameworks are software libraries or tools that provide a set of pre-written code to perform common tasks and functions in web development. These frameworks are designed to help developers build server-side applications more efficiently and effectively.
+
+        Backend frameworks provide a structure and set of conventions that help developers quickly and easily build web applications , increasing development speed. Many backend frameworks are designed with scalability in mind, which makes it easier to build web applications that can handle large amounts of traffic and data. Backend frameworks often include built-in security features, such as protection against common web attacks like SQL injection and cross-site scripting (XSS). Backend frameworks provide a consistent structure and set of conventions, which makes it easier to maintain and update web applications over time. Since these are widely used, there are a large number of developers who are familiar with the framework, and many resources and tutorials available online, which helps to solve any problems you may encounter while developing the application. Backend frameworks are software libraries or tools that provide a set of pre-written code to perform common tasks and functions in web development. These frameworks are designed to help developers build server-side applications more efficiently and effectively.
+        
+        In summary, backend frameworks are an essential tool for modern web development, as they provide a set of pre-built tools and functionality that can help developers create web applications more efficiently, effectively, and securely.
+        
+        Keywords : Backend Frameworks , Node JS frameworks , Server side applications , routing , HTTP requests. 
+    </p>
+</div>
+
+<div>
+    <h2>INTRODUCTION</h2>
+    <p>
+        With the rapid development of today's Internet, the development of applications and websites is proceeding rapidly. Building apps is now very convenient when there is a backend service available that can connect to the app on various platforms. But the main pain point for developers is choosing or choosing or building a flexible high-concurrency backend for their app.
+        Now the Node js framework helps you create, build and design web applications quickly and conveniently. Our framework requires only Javascript, making it easy for programmers and developers to create web applications and APIs without any hassle. Node js framework means most of the code is already written for programmers. Therefore, through this framework, you create single-page, multi-page, and hybrid web applications. The
+        Node Framework is a workspace platform that supports the use of Node.js and allows developers to develop both the front and back ends of their applications using JavaScript. The Node framework is a broad collection of frameworks that build on top of Node and further extend its features and functionality. The framework is the backend part of MEAN and manages routing, sessions, HTTP requests, error handling, etc.
+        All frameworks in Node js are useful and reduce code complexity to some extent. The Node framework is a workspace platform that supports the use of Node.js and allows developers to develop both the front and back ends of their applications using JavaScript. The Node framework is a broad collection of frameworks that build on top of Node and further extend its features and functionality.
+    </p>
+    <h2>LITERATURE REVIEW</h2>
+    <p>
+        In Design and Development of Backend Application for Public Complaint Systems Using Microservice Spring Boot by Hatma Suryotrisongko, Dedy Puji Jayanto, Aris Tjahyanto it is stated that E-government is animplementation of ICT (facts and verbal exchange technologies) within the area of governance in enhancing offerings to the general public by means of a central authority or public sector. As an instance, clever town, on line licensing services, community criticism services, and so forth. The purpose of this research is to expand public complaint carrier application primarily based on net utility which makes use of springboot microservice structure. Microservice structure was used to divide the software functionality into many elements, or many micro-services based totally on business manner and the offerings are interconnected, turning into a unmarried software with a complete business process. One advantage of this architecture is that more microservices can be added without impacting other microservices. The application was deployed in a cloud environment accessible via a browser.  
+        Recently, one of his interesting developments  gaining popularity in the field of server-side JavaScript  is Node.js. It is a framework for developing high-performance parallel programs that  use asynchronous I/O in an event-driven programming model without relying on mainstream multithreading approaches. 
+        File sharing is the distribution or availability of digital media such as computer programs, multimedia, documents, and e-books. Millions of file transfers take place every day. Therefore, we need to develop scalable software that can share these files quickly and efficiently. File transfer allows files or data objects to be shared, transferred, or exchanged between different users or computer systems over an Internet connection. Node.Js is a server-side platform used primarily for real-time usage due to its "event-based architecture" and "unlimited I/O". Node .js is 10x faster than the I/O service. 
+    </p>
+    <h2>DESIGN</h2>
+    <img border="0" src="https://drive.google.com/uc?export=view&id=1RlQINCVc89oA6FIZPBGEnXShS0M0pZXw" alt="image" width="700" height="228" />
+    <p>
+        <h2>3.1	Architecture</h2>
+        It is built on top of the Node.js HTTP module, and it provides a simple and flexible routing system, support for middleware functions, and the ability to use a variety of template engines.At a high level, the architecture of  application can be thought of as a series of middleware functions that are executed in a specific order to process a request and send a response.
+        
+        When a request is received by an application, it is passed through a series of middleware functions. Each middleware function has the opportunity to modify the request and response objects, and to execute any other logic it needs to. The request and response objects are then passed to the next middleware function in the stack until the final middleware function is reached. At that point, the response is sent back to the client
+    </p>
+    <img border="0" src="https://drive.google.com/uc?export=view&id=1yyOxDmZOzA_Ajc15cfj3eid_KVUovjpC" alt="image" width="200" height="500" />
+    <p>
+        <h2>3.2	Interaction between frontend and server/backend</h2>
+        In order for the frontend of a web application to interact with the backend, the frontend must make requests to the backend server. These requests are typically made using the HTTP protocol, and they are sent to the server via a specific port.The server listens for incoming requests on a specific port, and when it receives a request, it processes it and sends a response back to the client. The client (the frontend) then receives the response and can use the data contained within it to update the user interface or perform other actions.
+
+        For example, a frontend might make a request to the backend to retrieve a list of users from a database. The backend would receive the request, query the database, and return a response containing the list of users to the frontend. The frontend could then display the list of users to the user.
+        By using this request-response model, the frontend and backend of a web application are able to communicate and exchange data. The specific port that the server listens on can be configured depending on the needs of the application.
+
+    </p>
+    <p>
+        <h2>3.3	Server response to requests</h2>
+        When a server receives an HTTP request, it processes the request and sends a response back to the client. The response typically consists of a status code, headers, and a body.The status code is a 3-digit number that indicates the status of the response. Some common status codes include 200 (OK), 404 (Not Found), and 500 (Internal Server Error).
+        
+        The headers contain additional information about the response, such as the content type and content length.The body is the main content of the response and can contain HTML, JSON data, or other types of content.
+    </p>
+    <p>
+        <h2>3.4	Design out frontend-backend interaction</h2>
+        According to your requirements for main content create a class/functional reference to contain the signature of all activities it need to do.Put in all possible http functions you want it to have and save it within this container along with a function to trigger the start of these processes.Plan out a flow of all different http functions you want it to have and added to it in a manner that it is easy to use and stay in relevance to their parent.
+        Against each http function save a function you need to be executed which could taken in information such as data from database or pathname and read them and execute a certain set of instructions and modification and store the end result in a JSON/HTML or other data type to store them back in the root functional reference with 1 trigger function to use these function/execute it when a http request is made from the front end side.
+        To create endpoints(/name) instead of randomly creating one fixed for each add a function to the functional reference which takes in endpoint name , http function needed to be executed and any other function provided by user and with all these inputs in form of string return you a function or store a function that maps these all inputs together.
+        Create an empty stack to store all the endpoints and function mapped to them that will be created in the future while developing any backend.Whenever server gets a http request from the frontend loop through the stack to find any matching endpoint name same as pathname in request from frontend.With a if-else block in found case execute the function that we have mapped to it and send back the response to the frontend through the specific port, otherwise create an http response with a error message and status code related to issue.
+    </p>
+    <p>
+        <h2>3.5	Design out backend-backend interaction</h2>
+
+        For cases where to fulfil one request backend needs to make few other requests within itself to generate the response.Create a next() function which can be used at global scope and instructs to pause the current flow of code and break out of local scope and search for either relevant scope further in code and then either to return back to original local block to complete remaining code or to end and not go back to original local scope.
+
+        Create a layer container and instead of directly storing the pathname-functionality mapped together in the stack we made in functional reference we will put these mapping in these layer and then these layers will be stored inside the stack. So, when further requests are needed to complete one layer within one itself layer of the other needed instructions are stored and using the next() function we can create a control to flow of code within specific layers and get the final response needed.
+    </p>
+</div>
+    
+
+
+<style>
+    /* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+div{
+    padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Responsive styles for extra small screens */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+</style>
+</body>
+</html>
